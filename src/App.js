@@ -1,5 +1,11 @@
+import Form1 from "./components/forms/Form1";
+
 function App() {
-  return <div className="App">Merhaba Dunya</div>;
+  return (
+    <div>
+      <Form1 />
+    </div>
+  );
 }
 
 export default App;
